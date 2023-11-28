@@ -1,0 +1,26 @@
+html,body{
+margin: 0;
+padding: 0;
+height: 100%;
+}
+
+body {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%;
+}    
+.container {
+width: 80%;
+display: flex;
+flex-wrap: wrap;
+margin: 0;
+padding: 0;
+border: 1px solid black;
+}
+.square {
+border: 0.5px solid black;
+box-sizing: border-box; /* Include border in width and height calculation */
+}
+
+  
